@@ -31,11 +31,12 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('gabiralta.github.io/pexels-matt-hardy-1533720.jpg');
+  background-image: url('gabiralta.github.io/WebsiteBanner2.png');
   background-size: cover;
+  font-family: 'Montserrat Thin', sans-serif;
   color: #ffffff;
   height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  text-shadow: none;
 }
 
 .jumbotron h2 {
@@ -51,30 +52,28 @@ header p {
 }
 
 section .row img {
-  margin: 0 0 30px;
+  margin: 0 0 40px;
   width: 100%;
 }
 
-.col-md-6 {
-  margin: 0 0 30px;
+.col-md-4 {
+  margin: 0 0 40px;
 }
 
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fbd1d5;
+  color: #0a0a0a;
   text-shadow: none;
-  background-color: #ffffff;
+  background-color: none;
 }
 
 .btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
+  background-color: #B8E6E6;
 }
 
 .btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
+  background-color: #B8E6E6;
   margin: 0 0 30px;
 }
 
