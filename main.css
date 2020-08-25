@@ -1,101 +1,42 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
 }
 
-header {
-  padding: 20px 0;
-  font-family: 'Montserrat Thin', sans-serif;
+h1 {
+	font-size: 32px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color: rgb(216,218,190);
 }
 
-header .row,
-footer .row {
-  display: flex;
-  align-items: center;
+h2 {
+	font-size: 56px;
 }
 
-header h1 {
-  font-weight: 700;
-  margin: 0;
-}
 
-header nav {
-  display: flex;
-  justify-content: flex-end;
-}
-
-header p {
-  padding: 0 20px;
-  margin: 0;
-}
-
-.jumbotron {
-  display: block;
-  align-items: center;
-  Background-image: url('gabiralta.github.io/WebsiteBanner4.png');
-  background-size: cover;
-  font-family: 'Montserrat Thin', sans-serif;
+.hero {
+	padding: 250px 0;
+	margin: 30px;
+  font-family: 'Montserrat Thin', Helvetica, sans-serif;
+  background-image: 
+  url("https://gabiralta.github.io/WebsiteBanner4.png");
+  background-size:cover;
   color: #ffffff;
-  height: 450px;
-  text-shadow: none;
 }
 
 
-
-
-.jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
+p {
+font-size: 2rem;
 }
 
-.jumbotron h3 {
-  margin: 0 0 20px;
-  color: #fff;
+.hero a {
+	color: #00FFAA;
+	font-size: 1.25em;
+	text-decoration: none;
 }
 
-section .row img {
-  margin: 0 0 40px;
-  width: 100%;
-}
-
-.col-md-4 {
-  margin: 0 0 30px;
-}
-
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 1px solid #000;
-  color: #0a0a0a;
-  text-shadow: none;
-  background-color: rgba(255, 0, 0, 0.4);
-}
-
-.btn.btn-primary:hover {
-  background-color: #B8E6E6;
-}
-
-.btn-secondary {
-  background-color: #B8E6E6;
-  margin: 0 0 30px;
-}
-
-footer {
-  font-size: 12px;
-  padding: 20px 0;
-}
-
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
+#footer {
+  font-size: 0.75rem;
 }
