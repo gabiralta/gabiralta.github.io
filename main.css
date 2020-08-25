@@ -8,7 +8,8 @@ body {
 h1 {
 	font-size: 32px;
   font-family: Palatino, 'Palatino Linotype', serif;
-  color: rgb(216,218,190);
+  color: black;
+  text-align: left;
 }
 
 h2 {
@@ -21,7 +22,7 @@ h2 {
 	margin: 30px;
   font-family: 'Montserrat Thin', Helvetica, sans-serif;
   background-image: 
-  url("https://gabiralta.github.io/WebsiteBanner4.png");
+  url("https://gabiralta.github.io/WebsiteBanner6.png");
   background-size:cover;
   color: #ffffff;
 }
