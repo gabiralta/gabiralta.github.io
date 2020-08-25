@@ -40,21 +40,7 @@ header p {
   text-shadow: none;
 }
 
-.jumbotron video {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  width:50%;
-  height:50%;
-  /*  object-fit is not supported on IE  */
-  object-fit: cover;
-  opacity:0.5;
-}
 
-.jumbotron .container {
-  z-index: 2;
-  position: relative;
-}
 
 
 .jumbotron h2 {
