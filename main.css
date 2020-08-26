@@ -63,8 +63,8 @@ section .row img {
 }
 
 #flower {
-  margin: 0 0 30px;
-  padding: 0 20px;
+  margin: 30px;
+  padding: 40px;
 }
 
  .box{
@@ -72,29 +72,27 @@ section .row img {
           position: relative;  
           border-radius: 1px;
           border: 3px solid white;
-          padding: 2rem 2rem;
- }
-
-.blue{
+          padding: 40px;
+      }
+      .blue{
           height: 150px;
           background: #368F8B;
           z-index: 1;
           top: 40px;
           left: 40px;
-          font-family: 'Jonathan', sans-serif;
-          color: #160F29;
+          font-family: 'Montserrat Thin', sans-serif;
+          color: #fff;
       }
     
       .cream{
           background: #F3DFC1;
-          height: 80px;
+          height: 100px;
           z-index: 2;
-          top: 40px;
-          left: 11rem;
+          top: 20px;
+          left: 50px;
           font-family:Arial;
           color: #160F29;
-         
-      }
+}
 
 .btn.btn-primary {
   border-radius: 2px;
