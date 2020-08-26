@@ -57,13 +57,6 @@ section .row img {
   margin: 0 0 30px;
 }
 
-.col-sm-4 {
-   font-weight: bold;
-   font-style: italic;
-   font-size: 200%;
-   text-align: center;
-   display: block;
-}
 
 .btn.btn-primary {
   border-radius: 2px;
