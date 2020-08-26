@@ -55,10 +55,9 @@ section .row img {
 
 .col-sm-6 {
   margin: 0 0 30px;
- padding: 0.1rem;
 }
 
-.col-sm-6 p {
+.col-sm-4 {
    font-weight: bold;
    font-style: italic;
    font-size: 200%;
