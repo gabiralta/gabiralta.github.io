@@ -57,6 +57,12 @@ section .row img {
   margin: 0 0 30px;
 }
 
+.col-sm-12{
+ margin: 0 0 30px;
+ align-items: center;
+}
+
+
 .btn.btn-primary {
   border-radius: 2px;
   border: 1px solid white;
