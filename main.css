@@ -67,7 +67,10 @@ section .row img {
   padding: 40px;
 }
 
- 
+#test {
+  background: #ADE8F4;
+}
+
 .btn.btn-primary {
   border-radius: 2px;
   border: 1px solid white;
