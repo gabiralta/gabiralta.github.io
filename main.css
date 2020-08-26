@@ -60,9 +60,11 @@ section .row img {
 
 .container-bg {
     background: #fbd1d5;
-    margin: 0 0 30px;
-    display: block;
-    align-items: center;
+}
+
+.container-bg .row img {
+  margin: 0 0 30px;
+  width: 100%;
 }
 
 .btn.btn-primary {
