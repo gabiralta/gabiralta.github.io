@@ -32,7 +32,7 @@ header p {
   align-items: center;
   background-image: url('https://gabiralta.github.io/WebsiteBanner6.png');
   background-size: cover;
-  color: #ffffff;
+  color: #fff;
   height: 500px;
 }
 
@@ -59,7 +59,8 @@ section .row img {
 
 .btn.btn-primary {
   border-radius: 2px;
-  border: 0px;
+  border: 1px solid white;
+  padding: 14px 28px;
   color: #fbd1d5;
   text-shadow: none;
   background-color: transparent;
