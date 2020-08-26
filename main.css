@@ -62,9 +62,9 @@ section .row img {
     background: #fbd1d5;
 }
 
-.container-bg .row img {
+#flower {
   margin: 0 0 30px;
-  width: 100%;
+  padding: 0 20px;
 }
 
 .btn.btn-primary {
