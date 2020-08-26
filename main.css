@@ -65,12 +65,9 @@ section .row img {
 #flower {
   margin: 30px;
   padding: 40px;
+  Color: #fff;
 }
 
-#test {
-  background: #ADE8F4;
-  Padding: 20px;
-}
 
 .btn.btn-primary {
   border-radius: 2px;
