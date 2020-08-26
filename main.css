@@ -67,6 +67,35 @@ section .row img {
   padding: 0 20px;
 }
 
+ .box{
+          width: 150px;
+          position: absolute;  
+          border-radius: 1px;
+          border: 3px solid white;
+          padding: 2rem 2rem;
+ }
+
+.blue{
+          height: 150px;
+          background: #368F8B;
+          z-index: 1;
+          top: 40px;
+          left: 40px;
+          font-family: 'Jonathan', sans-serif;
+          color: #160F29;
+      }
+    
+      .cream{
+          background: #F3DFC1;
+          height: 80px;
+          z-index: 2;
+          top: 40px;
+          left: 11rem;
+          font-family:Arial;
+          color: #160F29;
+         
+      }
+
 .btn.btn-primary {
   border-radius: 2px;
   border: 1px solid white;
