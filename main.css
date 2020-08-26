@@ -58,6 +58,10 @@ section .row img {
 }
 
 
+.container-bg {
+    background: #fbd1d5;
+}
+
 .btn.btn-primary {
   border-radius: 2px;
   border: 1px solid white;
