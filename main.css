@@ -69,7 +69,7 @@ section .row img {
 
  .box{
           width: 150px;
-          position: absolute;  
+          position: flex;  
           border-radius: 1px;
           border: 3px solid white;
           padding: 2rem 2rem;
