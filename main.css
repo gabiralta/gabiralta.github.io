@@ -57,6 +57,10 @@ section .row img {
   margin: 0 0 30px;
 }
 
+#flower .col-sm-8 {
+  margin: 0 30px 30px;
+}
+
 
 .container-bg {
     background: #368F8B;
