@@ -56,14 +56,17 @@ p {
 
 .container-bg {
     background: #368F8B;
+    align-items: center;
 }
 
 #flower {
-  align-items: center;
   padding: 4rem;
   Color: #fff;
 }
 
+#flower .row img {
+  width: 50%;
+}
 
 
 .btn.btn-primary {
