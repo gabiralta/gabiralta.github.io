@@ -5,6 +5,7 @@ body {
 h1 {
   padding: 20px 0;
   font-family: 'Parisienne', cursive;
+  align-items: center;
 }
 
 header .row,
@@ -21,6 +22,7 @@ header nav {
 
 p {
   font-size: 2rem;
+  align-items: center;
 }
 
 .jumbotron {
@@ -60,7 +62,6 @@ p {
 
 .container-bg {
     background: #368F8B;
-    align-items: center;
 }
 
 #flower {
