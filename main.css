@@ -1,11 +1,21 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
   padding: 20px 0;
   font-family: 'Parisienne', cursive;
 }
+
+
+h2 {
+  font-family; 'Montserrat Thin', sans-serif;
+}
+
+h3 {
+  padding: 30px;
+}
+
 
 header .row,
 footer .row {
