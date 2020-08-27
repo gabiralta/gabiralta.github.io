@@ -59,6 +59,8 @@ section .row img {
 #flower {
   padding: 4rem;
   color: #fff;
+  display: block;
+  align-items: center;
   text-align: center;
   font-size: 24px;
   font-family: Roboto, sans-serif;
