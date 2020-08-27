@@ -68,7 +68,7 @@ section .row img {
   padding: 4rem;
   color: #fff;
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
   font-family: Roboto, sans-serif;
 }
 
@@ -77,7 +77,7 @@ section .row img {
   border-radius: 2px;
   border: 1px solid white;
   padding: 14px 28px;
-  color: #0077b6;
+  color: #495057;
   text-shadow: none;
   font-size: 18px;
   background-color: transparent;
@@ -85,7 +85,7 @@ section .row img {
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #90e0ef;
+  background-color: #ced4da;
 }
 
 .btn-secondary {
