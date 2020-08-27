@@ -59,18 +59,11 @@ p {
 }
 
 #flower {
-  margin: 30px;
   padding: 4rem;
   Color: #fff;
 }
 
-#flower .col-sm-8 {
-  margin-bottom: 2rem
-}
 
-#flower h1 {
-  margin-left: 3rem;
-}
 
 .btn.btn-primary {
   border-radius: 2px;
