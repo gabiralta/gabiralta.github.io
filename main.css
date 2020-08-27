@@ -64,8 +64,6 @@ section .row img {
 }
 
 
-
-
 .container-bg2 {
    background-image: url('https://gabiralta.github.io/WebsiteBanner6.png');
    background-size: height: 500px;
@@ -73,7 +71,7 @@ section .row img {
 
 
 #flower {
-  padding: 4rem;
+  padding: 5rem;
   color: #fff;
   text-align: left;
   font-size: 3rem;
