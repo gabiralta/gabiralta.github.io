@@ -1,10 +1,10 @@
 body {
-  font-family: 'Montserrat Thin', sans-serif;
+  font-family: 'Montserrat Thin', Roboto, sans-serif;
 }
 
 h1 {
   padding: 20px 0;
-  font-family: 'Parisienne', sans-serif;
+  font-family: 'Parisienne', cursive, Roboto;
 }
 
 header .row,
@@ -13,10 +13,6 @@ footer .row {
   align-items: center;
 }
 
-h1 {
-  font-weight: 700;
-  margin: 0;
-}
 
 header nav {
   display: flex;
@@ -65,13 +61,12 @@ header p {
 
 #flower {
   margin: 30px;
-  padding: 2em;
+  padding: 2rem;
   Color: #fff;
 }
 
 #flower .col-sm-8 {
-  margin: 0;
-  background: #83c5be
+  Margin-bottom: 1rem
 }
 
 
