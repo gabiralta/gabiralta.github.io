@@ -44,9 +44,6 @@ p {
   color: #fff;
 }
 
-#flower .row img {
-  width: 50%;
-}
 
 .row img {
   margin: 0 0 30px;
@@ -66,7 +63,8 @@ p {
   margin: auto;
   Width: 50%;
   padding: 4rem;
-  Color: #fff;
+  color: #fff;
+  text-align: center;
 }
 
 
