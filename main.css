@@ -59,6 +59,7 @@ section .row img {
 
 #flower .col-sm-8 {
   margin: 0;
+  padding: 2em;
  
 }
 
@@ -69,7 +70,7 @@ section .row img {
 
 #flower {
   margin: 30px;
-  padding: 1em;
+  padding: 2em;
   Color: #fff;
 }
 
