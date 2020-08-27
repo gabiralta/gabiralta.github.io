@@ -63,12 +63,18 @@ section .row img {
     background: #83c5be;
 }
 
+.container-bg2 {
+   background-image: url('https://gabiralta.github.io/WebsiteBanner6.png');
+   background-size: height: 500px;
+}
+
+
 
 #flower {
   padding: 4rem;
   color: #fff;
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
   font-family: Roboto, sans-serif;
 }
 
