@@ -1,10 +1,10 @@
 body {
-  font-family: 'Montserrat Thin', Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 h1 {
   padding: 20px 0;
-  font-family: 'Parisienne', cursive, Roboto;
+  font-family: 'Parisienne', cursive;
 }
 
 header .row,
@@ -20,8 +20,10 @@ header nav {
 }
 
 header p {
+  font-size: 5rem;
   padding: 0 20px;
   margin: 0;
+  
 }
 
 .jumbotron {
@@ -66,9 +68,12 @@ header p {
 }
 
 #flower .col-sm-8 {
-  Margin-bottom: 1rem
+  margin-bottom: 2rem
 }
 
+#flower h1 {
+  margin-left: 2rem;
+}
 
 .btn.btn-primary {
   border-radius: 2px;
