@@ -51,10 +51,11 @@ section .row img {
   margin: 0 0 30px;
 }
 
-.col-sm-8 img {
+.col-sm-12 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 30px 0 0;
 }
 
 .container-bg {
