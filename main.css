@@ -19,11 +19,8 @@ header nav {
   justify-content: flex-end;
 }
 
-header p {
+p {
   font-size: 5rem;
-  padding: 0 20px;
-  margin: 0;
-  
 }
 
 .jumbotron {
@@ -63,7 +60,7 @@ header p {
 
 #flower {
   margin: 30px;
-  padding: 2rem;
+  padding: 4rem;
   Color: #fff;
 }
 
