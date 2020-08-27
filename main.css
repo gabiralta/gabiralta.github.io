@@ -63,13 +63,7 @@ section .row img {
     background: #83c5be;
 }
 
-#flower {
-  padding: 4rem;
-  color: #fff;
-  text-align: center;
-  font-size: 3rem;
-  font-family: Roboto, sans-serif;
-}
+
 
 
 .container-bg2 {
@@ -78,7 +72,13 @@ section .row img {
 }
 
 
-
+#flower {
+  padding: 4rem;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  font-family: Roboto, sans-serif;
+}
 
 .btn.btn-primary {
   border-radius: 2px;
