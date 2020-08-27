@@ -60,7 +60,7 @@ section .row img {
   padding: 4rem;
   color: #fff;
   text-align: center;
-  Font-size: 24px;
+  font-size: 24px;
   font-family: Roboto, sans-serif;
 }
 
@@ -68,9 +68,10 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 1px solid white;
-  padding: 7px 14px;
+  padding: 14px 28px;
   color: #fbd1d5;
   text-shadow: none;
+  font-size: 18px;
   background-color: transparent;
 }
 
