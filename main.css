@@ -41,6 +41,15 @@ header nav {
   color: #fff;
 }
 
+#flower {
+  padding: 4rem;
+  color: #fff;
+  display: block;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  font-family: Roboto, sans-serif;
+}
 
 section .row img {
   margin: 0 0 30px;
@@ -56,15 +65,7 @@ section .row img {
     background: #368F8B;
 }
 
-#flower {
-  padding: 4rem;
-  color: #fff;
-  display: block;
-  align-items: center;
-  text-align: center;
-  font-size: 24px;
-  font-family: Roboto, sans-serif;
-}
+
 
 
 .btn.btn-primary {
