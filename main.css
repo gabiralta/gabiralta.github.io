@@ -58,12 +58,9 @@ section .row img {
   padding: 60px 0 0;
 }
 
-.col-sm-12 href {
-  padding: 30px 0 0;
-}
 
 .container-bg {
-    background: #368F8B;
+    background: #83c5be;
 }
 
 
@@ -80,7 +77,7 @@ section .row img {
   border-radius: 2px;
   border: 1px solid white;
   padding: 14px 28px;
-  color: #fbd1d5;
+  color: #0077b6;
   text-shadow: none;
   font-size: 18px;
   background-color: transparent;
@@ -88,7 +85,7 @@ section .row img {
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #fbd1d5;
+  background-color: #0077b6;
 }
 
 .btn-secondary {
