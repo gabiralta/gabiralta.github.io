@@ -59,6 +59,7 @@ p {
 }
 
 #flower {
+  align-items: center;
   padding: 4rem;
   Color: #fff;
 }
