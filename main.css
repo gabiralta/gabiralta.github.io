@@ -19,9 +19,6 @@ header nav {
   justify-content: flex-end;
 }
 
-p {
-  font-size: 2rem;
-}
 
 .jumbotron {
   display: flex;
@@ -45,6 +42,10 @@ p {
 }
 
 
+#flower .row img {
+  margin: auto;
+  width: 50%;
+
 .row img {
   margin: 0 0 30px;
   width: 100%;
@@ -60,11 +61,14 @@ p {
 }
 
 #flower {
-  margin: auto;
-  Width: 50%;
   padding: 4rem;
   color: #fff;
   text-align: center;
+}
+
+#flower p{
+  font-size: 24px;
+  font-family: Roboto, sans-serif;
 }
 
 
