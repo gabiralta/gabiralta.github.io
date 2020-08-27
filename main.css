@@ -75,7 +75,7 @@ section .row img {
 #flower {
   padding: 4rem;
   color: #fff;
-  text-align: center;
+  text-align: left;
   font-size: 3rem;
   font-family: Roboto, sans-serif;
 }
