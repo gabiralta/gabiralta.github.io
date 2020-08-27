@@ -2,8 +2,9 @@ body {
   font-family: 'Montserrat Thin', sans-serif;
 }
 
-header {
+h1 {
   padding: 20px 0;
+  font-family: 'Parisienne', sans-serif;
 }
 
 header .row,
@@ -12,7 +13,7 @@ footer .row {
   align-items: center;
 }
 
-header h1 {
+h1 {
   font-weight: 700;
   margin: 0;
 }
@@ -48,20 +49,13 @@ header p {
   color: #fff;
 }
 
-section .row img {
+.row img {
   margin: 0 0 30px;
   width: 100%;
 }
 
 .col-sm-6 {
   margin: 0 0 30px;
-}
-
-#flower .col-sm-8 {
-  margin: 0;
-  padding: 2em;
-  background: #83c5be
- 
 }
 
 
@@ -73,6 +67,11 @@ section .row img {
   margin: 30px;
   padding: 2em;
   Color: #fff;
+}
+
+#flower .col-sm-8 {
+  margin: 0;
+  background: #83c5be
 }
 
 
