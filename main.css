@@ -14,8 +14,6 @@ h3 {
 }
 
 
-
-
 header .row,
 footer .row {
   display: flex;
@@ -82,8 +80,13 @@ section .row img {
 
 #flower p {
   padding: 5rem;
-  font-size: 20px;
+  font-size: 25px;
   font-family: Raleway, sans-serif;
+}
+
+#flower h1 {
+  padding: 5rem;
+  font-size: 35px;
 }
 
 .btn.btn-primary {
