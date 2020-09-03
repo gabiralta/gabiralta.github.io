@@ -73,7 +73,8 @@ section .row img {
     background-size: cover;
 }
 
-.container p {
+
+p {
   padding: 5rem;
   font-size: 20px
   font-family: Raleway, sans-serif;
