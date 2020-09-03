@@ -67,7 +67,7 @@ section .row img {
 
 
 .container-bg {
-    background: #000;
+    background: black;
     background-image: url('https://gabiralta.github.io/austin.jpg');
     background-size: height: 500px;
     opacity: 0.2;
