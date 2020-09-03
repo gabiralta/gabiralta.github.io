@@ -68,6 +68,8 @@ section .row img {
 
 .container-bg {
     background: #83c5be;
+    background-image: url('https://gabiralta.github.io/austin.jpg');
+    background-size: height: 500px;
 }
 
 
@@ -83,7 +85,7 @@ section .row img {
   text-align: left;
   font-size: 17px;
   font-family: Calibri, sans-serif;
-  background-image: url('https://gabiralta.github.io/austin.jpg');
+
 }
 
 .btn.btn-primary {
