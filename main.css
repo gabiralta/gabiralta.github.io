@@ -74,11 +74,7 @@ section .row img {
 }
 
 
-p {
-  padding: 5rem;
-  font-size: 20px;
-  font-family: Raleway, sans-serif;
-}
+
 
 
 #flower {
@@ -87,7 +83,11 @@ p {
   text-align: center;
 }
 
-
+#flower p {
+  padding: 5rem;
+  font-size: 20px;
+  font-family: Raleway, sans-serif;
+}
 
 .btn.btn-primary {
   border-radius: 2px;
