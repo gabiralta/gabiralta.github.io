@@ -80,13 +80,29 @@ section .row img {
 
 #flower p {
   padding: 5rem;
-  font-size: 25px;
-  font-family: Raleway, sans-serif;
+  font-size: 20px;
 }
 
 #flower h1 {
   padding: 5rem;
-  font-size: 35px;
+  font-size: 50px;
+}
+
+
+#rose {
+  padding: 5rem;  
+  color: #fff;
+  text-align: left;
+}
+
+#flower p {
+  padding: 5rem;
+  font-size: 20px;
+}
+
+#rose h1 {
+  padding: 5rem;
+  font-size: 50px;
 }
 
 .btn.btn-primary {
