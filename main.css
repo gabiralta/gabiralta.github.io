@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  padding: 25px 0;
+  padding: 15px 0;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -82,6 +82,7 @@ p {
 
 
 #flower {
+  padding: 5rem;  
   color: #fff;
   text-align: center;
 }
