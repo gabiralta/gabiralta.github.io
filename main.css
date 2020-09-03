@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  padding: 20px 0;
+  padding: 25px 0;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -72,17 +72,13 @@ section .row img {
 }
 
 
-.container-bg2 {
-   background-image: url('https://gabiralta.github.io/WebsiteBanner6.png');
-   background-size: height: 500px;
-}
 
 
 #flower {
   padding: 5rem;
   color: #fff;
   text-align: left;
-  font-size: 17px;
+  font-size: 22px;
   font-family: Raleway, sans-serif;
 
 }
