@@ -14,6 +14,8 @@ h3 {
 }
 
 
+
+
 header .row,
 footer .row {
   display: flex;
@@ -71,17 +73,20 @@ section .row img {
     background-size: cover;
 }
 
-
+.container p {
+  padding: 5rem;
+  font-size: 12px
+  font-family: Raleway, sans-serif;
+}
 
 
 #flower {
-  padding: 5rem;
   color: #fff;
-  text-align: left;
-  font-size: 22px;
-  font-family: Raleway, sans-serif;
-
+  text-align: center;
 }
+
+
+
 
 .btn.btn-primary {
   border-radius: 2px;
