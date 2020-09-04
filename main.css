@@ -30,10 +30,10 @@ header nav {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://gabiralta.github.io/WebsiteBanner6.png');
+  background-image: url('https://gabiralta.github.io/jumbotron.png');
   background-size: cover;
   color: #fff;
-  height: 500px;
+  height:600px;
 }
 
 .jumbotron h2 {
@@ -140,7 +140,7 @@ section .row img {
 }
 
 .btn-secondary {
-  background-color: #E8DFE0;
+  background-color: #B8E6E6;
   color: #ffffff;
   margin: 0 0 30px;
   padding: 14px 28px;
