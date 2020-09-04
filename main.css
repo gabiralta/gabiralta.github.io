@@ -37,10 +37,11 @@ header nav {
 }
 
 .jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
+  font-size: 100px;
   margin: 0;
   color: #fff;
+  padding: 5rem;
+  font-family: 'Raleway', source sans pro;
 }
 
 .jumbotron h3 {
@@ -84,7 +85,7 @@ section .row img {
 
 #flower p {
   padding: 5rem;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #flower h1 {
@@ -100,7 +101,7 @@ section .row img {
 
 #rose p {
   padding: 5rem;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #rose h1 {
@@ -115,7 +116,7 @@ section .row img {
 
 #hydrangea p {
   padding: 5rem;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #hydrangea h1 {
