@@ -119,8 +119,8 @@ section .row img {
 }
 
 #hydrangea h1 {
-  padding: 5rem;
   font-size: 50px;
+    padding: 0 5rem 0;
 }
 
 
