@@ -72,7 +72,7 @@ section .row img {
 }
 
 .container-3 {
-    background-image: url('https://gabiralta.github.io/BWcontact.png');
+    background-image: url('https://gabiralta.github.io/coffeeboard.png');
     background-size: cover;
 }
 
@@ -141,7 +141,7 @@ section .row img {
 
 .btn-secondary {
   background-color: #B8E6E6;
-  color: #ced4da;
+  color: #000;
   margin: 0 0 30px;
   padding: 14px 28px;
   font-size: 18px;
@@ -149,7 +149,6 @@ section .row img {
 
 .btn.btn-secondary:hover {
   background-color: #ced4da;
-  color: #B8E6E6
 }
 
 
