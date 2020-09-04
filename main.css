@@ -141,11 +141,17 @@ section .row img {
 
 .btn-secondary {
   background-color: #B8E6E6;
-  color: #ffffff;
+  color: #ced4da;
   margin: 0 0 30px;
   padding: 14px 28px;
   font-size: 18px;
 }
+
+.btn.btn-secondary:hover {
+  background-color: #ced4da;
+  color: #B8E6E6
+}
+
 
 footer {
   font-size: 12px;
