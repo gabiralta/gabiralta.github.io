@@ -72,13 +72,13 @@ section .row img {
     background-size: cover;
 }
 
-.container-bg2{
+.container-bg2 {
     background-image: url('https://gabiralta.github.io/rosesbanner.png');
     background-size: cover;
 }
 
-.container-3{
-    Background-color: #fff;
+.container-3 {
+    Background-color: #B8E6E6;
 }
 
 
@@ -121,7 +121,7 @@ section .row img {
 
 #petunia {
   padding: 5rem;  
-  text-align: right;
+  text-align: center;
 }
 
 #petunia p {
@@ -129,9 +129,13 @@ section .row img {
   font-size: 25px;
 }
 
+#petunia img {
+   border: 10px solid white;
+}
+
 #petunia h1 {
   font-size: 50px;
-    padding:  0;
+    padding:  1rem;
 }
 
 
