@@ -77,9 +77,7 @@ section .row img {
     background-size: cover;
 }
 
-.container-3 {
-    Background-color: #B8E6E6;
-}
+
 
 
 .container-4 {
@@ -130,7 +128,8 @@ section .row img {
 }
 
 #petunia img {
-   border: 10px solid white;
+   border: 15px solid;
+   border-color: #B8E6E6;
 }
 
 #petunia h1 {
