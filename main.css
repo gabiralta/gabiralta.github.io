@@ -77,6 +77,10 @@ section .row img {
     background-size: cover;
 }
 
+.container-3{
+    Background-color: #fff;
+}
+
 
 .container-4 {
     background-image: url('https://gabiralta.github.io/coffeeboard.png');
@@ -117,7 +121,7 @@ section .row img {
 
 #petunia {
   padding: 5rem;  
-  text-align: center;
+  text-align: right;
 }
 
 #petunia p {
@@ -127,7 +131,7 @@ section .row img {
 
 #petunia h1 {
   font-size: 50px;
-    padding: 0 5rem 0;
+    padding:  0;
 }
 
 
