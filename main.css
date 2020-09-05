@@ -72,6 +72,12 @@ section .row img {
     background-size: cover;
 }
 
+.container-bg2{
+    background-image: url('https://gabiralta.github.io/rosesbanner.png');
+    background-size: cover;
+}
+
+
 .container-3 {
     background-image: url('https://gabiralta.github.io/coffeeboard.png');
     background-size: cover;
