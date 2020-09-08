@@ -162,14 +162,13 @@ section .row img {
 .container-about {
     background-image: url('https://gabiralta.github.io/aboutbanner.png');
     background-size: cover;
-    height: 500px;
+    height: 600px;
 }
 
 #foxtail p {
   padding: 1rem;
   font-size: 20px;
 }
-
 
 #foxtail h1 {
   font-size: 50px;
