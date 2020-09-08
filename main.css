@@ -33,7 +33,7 @@ header nav {
   background-image: url('https://gabiralta.github.io/jumbotron.png');
   background-size: cover;
   color: #fff;
-  height:600px;
+  height: 600px;
 }
 
 .jumbotron h2 {
@@ -83,10 +83,6 @@ section .row img {
     background-size: cover;
 }
 
-.container-about {
-    background-image: url('https://gabiralta.github.io/aboutbanner.png');
-    background-size: cover;
-}
 
 
 #flower {
@@ -163,10 +159,15 @@ section .row img {
   padding: 0 5rem 0;
 }
 
+.container-about {
+    background-image: url('https://gabiralta.github.io/aboutbanner.png');
+    background-size: cover;
+    height: 500px;
+}
 
 #foxtail p {
   padding: 1rem;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 
