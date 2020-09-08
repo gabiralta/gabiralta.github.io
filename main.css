@@ -78,11 +78,16 @@ section .row img {
 }
 
 
-
 .container-4 {
     background-image: url('https://gabiralta.github.io/coffeeboard.png');
     background-size: cover;
 }
+
+.container-about {
+    background-image: url('https://gabiralta.github.io/aboutbanner.png');
+    background-size: cover;
+}
+
 
 #flower {
   padding: 5rem;  
@@ -156,6 +161,18 @@ section .row img {
 #hydrangea h1 {
   font-size: 50px;
   padding: 0 5rem 0;
+}
+
+
+#foxtail p {
+  padding: 1rem;
+  font-size: 25px;
+}
+
+
+#foxtail h1 {
+  font-size: 50px;
+    padding:  1rem;
 }
 
 
