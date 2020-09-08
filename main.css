@@ -131,6 +131,8 @@ section .row img {
 #petunia img {
    border: 15px solid;
    border-color: #B8E6E6;
+   margin: 3rem;
+   width: 90%
 }
 
 #petunia h1 {
