@@ -9,10 +9,19 @@ h1 {
 
 
 
-h3 {
-  padding: 5rem 5rem;
+h2 {
+  padding: 5rem 0 0;
+  font-size: 100px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
+h3 {
+  padding: 0 0 5rem;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
 
 header .row,
 footer .row {
@@ -106,7 +115,7 @@ section .row img {
 #rose {
   padding: 5rem; 
   padding-bottom: 15rem; 
-  text-align: left;
+  text-align: center;
 }
 
 #rose p {
@@ -115,9 +124,11 @@ section .row img {
 }
 
 #rose h1 {
-  padding: 5rem;
+  padding: 5rem 1rem 1rem;
   font-size: 50px;
 }
+
+
 
 #petunia {
   padding: 5rem;  
@@ -138,13 +149,13 @@ section .row img {
 
 #petunia h1 {
   font-size: 50px;
-    padding:  1rem;
+    padding:  5rem 1rem 1rem;
 }
 
 
 #hydrangea {
   padding: 5rem;  
-  text-align: left;
+  text-align: center;
 }
 
 
@@ -221,4 +232,38 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container-contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 500px;
+  margin: auto;
 }
