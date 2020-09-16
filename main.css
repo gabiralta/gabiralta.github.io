@@ -17,7 +17,7 @@ h2 {
 }
 
 h3 {
-  padding: 0 0 5rem;
+  padding: 0 0 10rem;
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
@@ -65,8 +65,8 @@ section .row img {
 }
 
 .col-sm-6 {
-  margin: 0;
-  padding: ;
+  margin: 2rem;
+  padding: 0;
 }
 
 .col-sm-12 img {
@@ -76,6 +76,10 @@ section .row img {
   padding: 60px 0 0;
 }
 
+
+.container-gray {
+    background-color: Gainsboro;
+}
 
 .container-bg {
     background-image: url('https://gabiralta.github.io/austin.png');
@@ -147,7 +151,7 @@ section .row img {
 
 #petunia img {
    border: 15px solid;
-   border-color: #B8E6E6;
+   border-color: #fff;
    margin: 3rem;
    width: 90%
 }
@@ -157,6 +161,10 @@ section .row img {
     padding: 1rem;
 }
 
+
+#petunia a {
+    margin: 2rem;
+}
 
 #hydrangea {
   padding: 5rem;  
