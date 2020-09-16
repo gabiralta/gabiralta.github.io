@@ -65,7 +65,8 @@ section .row img {
 }
 
 .col-sm-6 {
-  margin: 0 0 30px;
+  margin: 0;
+  padding: ;
 }
 
 .col-sm-12 img {
@@ -93,6 +94,10 @@ section .row img {
 }
 
 
+#catalogue {
+  padding: 0rem 10rem 10rem;  
+  text-align: center;
+}
 
 #flower {
   padding: 5rem;  
@@ -149,7 +154,7 @@ section .row img {
 
 #petunia h1 {
   font-size: 50px;
-    padding:  5rem 1rem 1rem;
+    padding: 1rem;
 }
 
 
@@ -167,7 +172,7 @@ section .row img {
 
 #hydrangea h1 {
   font-size: 50px;
-  padding: 0 5rem 0;
+  padding: 5rem 0rem 0;
 }
 
 .container-about {
@@ -202,6 +207,8 @@ section .row img {
   background-color: #ced4da;
 }
 
+
+
 .btn-secondary {
   background-color: #B8E6E6;
   color: #000;
@@ -214,6 +221,19 @@ section .row img {
   background-color: #ced4da;
 }
 
+
+.btn.btn-terciary {
+ background-color:  #ced4da;
+  color: #000;
+  margin: 0 0 30px;
+  padding: 14px 28px;
+  font-size: 18px;
+}
+
+.btn.btn-terciary:hover {
+  color: #000;
+  background-color: #B8E6E6;
+}
 
 footer {
   font-size: 12px;
