@@ -11,7 +11,7 @@ h1 {
 
 h2 {
   padding: 5rem 0 0;
-  font-size: 100px;
+  font-size: 80px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
@@ -42,11 +42,11 @@ header nav {
   background-image: url('https://gabiralta.github.io/jumbotron.png');
   background-size: cover;
   color: #fff;
-  height: 525px;
+  height: 700px;
 }
 
 .jumbotron h2 {
-  font-size: 100px;
+  font-size: 80px;
   margin: 0;
   color: #fff;
   padding: 5rem;
@@ -80,6 +80,7 @@ section .row img {
 .container-gray {
     background-image: url('https://gabiralta.github.io/lightblue.png');
     background-size: cover;
+    height: 700px;
 }
 
 .container-bg {
@@ -90,12 +91,14 @@ section .row img {
 .container-bg2 {
     background-image: url('https://gabiralta.github.io/whiteflower.png');
     background-size: cover;
+    height: 700px;
 }
 
 
 .container-4 {
     background-image: url('https://gabiralta.github.io/coffeeboard.png');
     background-size: cover;
+    height: 700px;
 }
 
 
@@ -134,7 +137,7 @@ section .row img {
 }
 
 #rose h1 {
-  padding: 5rem 1rem 1rem;
+  padding: 15rem 1rem 1rem;
   font-size: 50px;
 }
 
