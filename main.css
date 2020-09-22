@@ -78,7 +78,8 @@ section .row img {
 
 
 .container-gray {
-    background-color: Gainsboro;
+    background-image: url('https://gabiralta.github.io/lightblue.png');
+    background-size: cover;
 }
 
 .container-bg {
@@ -87,7 +88,7 @@ section .row img {
 }
 
 .container-bg2 {
-    background-image: url('https://gabiralta.github.io/rosesbanner.png');
+    background-image: url('https://gabiralta.github.io/whiteflower.png');
     background-size: cover;
 }
 
