@@ -46,16 +46,16 @@ header nav {
 }
 
 .jumbotron h2 {
-  font-size: 80px;
-  margin: 0;
-  color: #fff;
-  padding: 5rem;
+  font-size: 60px;
+  margin: 45rem 0 0 0;
+  color: #000;
+  padding: 5rem 0 0 0;
   font-family: 'Raleway', source sans pro;
 }
 
 .jumbotron h3 {
-  margin: 0 0 20px;
-  color: #fff;
+  margin: 0;
+  color: #000;
 }
 
 
@@ -78,20 +78,18 @@ section .row img {
 
 
 .container-gray {
-    background-image: url('https://gabiralta.github.io/lightblue.png');
-    background-size: cover;
-    height: 700px;
+    background-color: white;
+    height: 500px;
 }
 
 .container-bg {
-    background-image: url('https://gabiralta.github.io/austin.png');
+    background-image: url('https://gabiralta.github.io/lightblue.png');
     background-size: cover;
 }
 
 .container-bg2 {
-    background-image: url('https://gabiralta.github.io/whiteflower.png');
-    background-size: cover;
-    height: 700px;
+    Background-color: white;
+    height: 500px;
 }
 
 
@@ -137,7 +135,7 @@ section .row img {
 }
 
 #rose h1 {
-  padding: 15rem 1rem 1rem;
+  padding: 5rem 1rem 1rem;
   font-size: 50px;
 }
 
@@ -155,7 +153,7 @@ section .row img {
 
 #petunia img {
    border: 15px solid;
-   border-color: #fff;
+   border-color: #BCD8E4;
    margin: 3rem;
    width: 90%
 }
