@@ -212,8 +212,13 @@ section .row img {
 }
 
 .btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #ced4da;
+  border-radius: 2px;
+  border: 2px solid #BCD8E4;
+  padding: 14px 28px;
+  color: #495057;
+  text-shadow: none;
+  font-size: 18px;
+  background-color: transparent;
 }
 
 
