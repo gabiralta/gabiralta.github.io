@@ -44,11 +44,11 @@ section div p {
   text-align: center;
 } 
 
-.row div img {
+/* .row div img {
   border: 15px solid;
   border-color: #BCD8E4;
   width: 80%
-}
+} */
 
 
 
@@ -58,6 +58,11 @@ section div p {
   background-color: #BCD8E4;
   color: #fff;
   height: 700px;
+}
+
+.jumbotron img {
+padding-top: 20rem;
+margin: 5rem;
 }
 
 .jumbotron h2 {
@@ -75,12 +80,12 @@ section div p {
 
 
 
-.col-sm-12 img {
+/* .col-sm-12 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 60px 0 0;
-}
+} */
 
 
 .container-gray {
