@@ -25,11 +25,14 @@ header {
   padding-right: 5rem;
 }
 
+
 nav ul li{
   list-style-type: none;
   display: inline-flex;
   padding: 10px;   
 }
+
+
 
 .jumbotron {
   /* display: flex; */
@@ -43,18 +46,20 @@ nav ul li{
 }
 
 
-
 .rec {
     height: 500px;
     text-align: center;
     padding: 5rem;  
-    text-align: center;
+
 }
 
 .rec .row{
   padding-top: 3rem;  
 }
 
+.rec ul li{
+  list-style-type: none;
+}
 
 .rec h2 {
   font-size: 7rem;
@@ -78,6 +83,20 @@ nav ul li{
     height: 600px;
 }
 
+
+.year .col-sm-6 {
+  padding: 7rem;
+  text-align: center;
+}
+
+body ul li{
+  /* list-style-type: none; */
+  text-align: left;
+}
+
+#contact {
+  background-image: url('coffeeboard.jpg');
+}
 
 .btn.btn-primary {
   border-radius: 2px;
