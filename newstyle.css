@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+body {
+    background-color: #EDF6F9;
+    color:  #006D77;
+    font-family: PT Sans;
+    font-size: 17px;
+}
+
+#darkgreen{
+    background-color: #006D77;
+    width: 350px;
+    height: 450px;
+    margin-left: 10rem;
+    padding: 2rem;
+}
+
+.logoleft {
+    width: 94px;
+    height: 113px;
+    margin-left: 2rem;
+}
+
+header div {
+    padding-top: 100px;
+}
+
+header h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: rgba(255,221,210,1);
+}
+
+header h2 {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color:#83C5BE;
+}
+
+article {
+    width: 350px;
+}
+
+#inlove {
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+
+#contact {
+    margin-top: 5rem;
+}
+
+.smpic {
+    background-color: #006D77;
+    width: 350px;
+    height: 250px;
+    margin-left: 10rem;
+    margin-top: 40px;
+}
+
+.dolphins {
+    background-color: #006D77;
+    width: 350px;
+    height: 455px;
+    margin-top: 40px;
+    margin-left: 5rem;
+}
+
+.armonia {
+    background-color: #006D77;
+    width: 350px;
+    height: 455px;
+    margin-top: 13rem;
+}
