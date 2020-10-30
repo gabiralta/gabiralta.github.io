@@ -11,7 +11,7 @@ body {
 #darkgreen{
     background-color: #006D77;
     /* width: 35rem; */
-    height: 45rem;
+    height: 44rem;
     /* margin-left: 10rem; */
     padding: 2rem;
     margin: auto;
@@ -64,9 +64,9 @@ article {
     /* width: 35rem; */
     height: 25rem;
     /* margin-left: 10rem; */
-    margin-top: 4rem;
     margin: auto;
     width: 75%;
+    margin-top: 4rem;
 }
 
 .dolphins {
@@ -82,8 +82,8 @@ article {
 .armonia {
     background-color: #006D77;
     /* width: 350px; */
-    height: 455px;
-    margin-top: 13rem;
+    height: 40rem;
     margin: auto;
     width: 75%;
+    margin-top: 13rem;
 }
