@@ -10,10 +10,12 @@ body {
 
 #darkgreen{
     background-color: #006D77;
-    width: 35rem;
+    /* width: 35rem; */
     height: 45rem;
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
     padding: 2rem;
+    margin: auto;
+    width: 75%;
 }
 
 .logoleft {
@@ -43,12 +45,14 @@ header h2 {
 }
 
 article {
-    width: 35rem;
+    /* width: 35rem; */
+    margin: auto;
+    width: 75%;
 }
 
 #inlove {
     margin-top: 15rem;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
 }
 
 #contact {
@@ -57,23 +61,29 @@ article {
 
 .smpic {
     background-color: #006D77;
-    width: 35rem;
+    /* width: 35rem; */
     height: 25rem;
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
     margin-top: 4rem;
+    margin: auto;
+    width: 75%;
 }
 
 .dolphins {
     background-color: #006D77;
-    width: 35rem;
+    /* width: 35rem; */
     height: 45rem;
     margin-top: 4rem;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
+    margin: auto;
+    width: 75%;
 }
 
 .armonia {
     background-color: #006D77;
-    width: 350px;
+    /* width: 350px; */
     height: 455px;
     margin-top: 13rem;
+    margin: auto;
+    width: 75%;
 }
