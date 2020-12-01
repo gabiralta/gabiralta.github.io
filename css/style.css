@@ -105,64 +105,6 @@ body header figure {
 
 
 
-* { margin: 0; padding: 0; }
-html { overflow-y: scroll; 
-}
-.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
-.group { display: inline-block; clear: both; }
-/* start commented backslash hack \*/ * html .group { height: 1%; } .group { display: block; } /* close commented backslash hack */
-article, aside, figure, footer, header, hgroup, menu, nav, section { display: block; }
-a:focus { outline: 0; }
-
-#page-wrap { 
-    width: 500px; margin: 40px auto 5px; background: #91c7ff; 
-    padding: 8px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
-	background: -moz-linear-gradient(top,  #eee,  #ccc);
-	-webkit-border-radius: 16px;
-	-moz-border-radius: 16px;
-}
-
-#main-content { padding: 14px; }
-
-
- 
-nav ul { 
-    list-style: none; padding: 5px 20px; position: relative; 
-
-    /* left: -9px; */
-}
-nav ul li { display: inline; }
-nav ul li a {
-	display: block;
-  float: left;
-
-	border-top: 1px solid #96d1f8;
-	height: 30px;
-	padding: 0 20px;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-  border-radius: 8px;
-
-  background-color: #BCD8E4;
-	text-decoration: none; 
-	margin: 0 5px 0 0;
-}
-nav ul li a:hover {
-	background: gray;
-	color: white;
-}	
-nav ul li a:active, nav ul li a.current {
-	border-top-color: #245779;
-	background: #1b435e;
-	position: relative;
-	top: 1px; 
-}
-
-
-
-
-
 
 
 
