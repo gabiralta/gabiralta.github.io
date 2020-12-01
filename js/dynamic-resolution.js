@@ -3,7 +3,7 @@ function adjustStyle(width) {
     if (width < 700) {
         $("#size-stylesheet").attr("href", "css/narrow.css");
     } else if ((width >= 701) && (width < 900)) {
-        $("#size-stylesheet").attr("href", "css/narrow.css");
+        $("#size-stylesheet").attr("href", "css/style.css");
     } else {
        $("#size-stylesheet").attr("href", "css/style.css"); 
     }
