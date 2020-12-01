@@ -21,10 +21,7 @@ header {
 
 header nav {
     margin-left: 50px;
-    /* z-index: 1; */
-    /* overflow: hidden; */
     text-align: center;
-    /* display: block; */
     display: inline-block;
 }
 
@@ -63,7 +60,6 @@ body header figure {
 .container {
     padding-top: 50px;
 }
-
 
 .container figure img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
