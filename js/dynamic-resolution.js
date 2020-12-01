@@ -1,8 +1,8 @@
 function adjustStyle(width) {
     width = parseInt(width);
-    if (width < 701) {
+    if (width < 400) {
         $("#size-stylesheet").attr("href", "css/narrow.css");
-    } else if ((width >= 701) && (width < 900)) {
+    } else if ((width >= 401) && (width < 900)) {
         $("#size-stylesheet").attr("href", "css/style.css");
     } else {
        $("#size-stylesheet").attr("href", "css/style.css"); 
