@@ -5,7 +5,10 @@ function getWidth() {
       document.documentElement.scrollWidth,
       document.body.offsetWidth,
       document.documentElement.offsetWidth,
-      document.documentElement.clientWidth
+      document.documentElement.clientWidth,
+      document.body.clientWidth,
+      window.innerWidth,
+
     );
   }
 
@@ -27,4 +30,4 @@ $(function() {
     });
 });
 
-console.log(getWidth())
+console.log(getWidth());
