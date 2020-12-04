@@ -1,4 +1,3 @@
-
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
@@ -20,7 +19,7 @@ header {
 }
 
 header nav {
-    margin-left: 50px;
+    margin-left: 60px;
     text-align: center;
     display: inline-block;
 }
@@ -161,3 +160,59 @@ footer {
   }
   
   
+  @media all and (max-width: 770px),
+     screen and (max-device-width: 770px) {
+         header nav {
+            margin-left: 10px;
+         }
+
+         .row article {
+            padding-left: 2rem;
+        }
+
+        .container {
+            padding-top: 0px;
+            padding-bottom: 60px;
+
+        }
+        .container figure img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto; 
+        }
+
+
+        #tx-l article p {
+            width: 100%;
+            float: left;
+        }
+        
+        #tx-l article {
+            padding-right: 10px;
+            text-align: left;
+        }
+        
+     
+        #tx-l figure {
+            padding-left: 10px;
+            text-align: left;
+        }
+        
+        #tx-r article {
+            padding-left: 10px;
+            text-align: left;
+        }
+        
+        #tx-r article p {
+            width: 100%;
+            float: left;
+        }
+        
+        #tx-r figure {
+            padding-right: 10px;
+            text-align: left;
+        } 
+        
+        
+       
+    }
