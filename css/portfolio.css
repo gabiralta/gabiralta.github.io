@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+    background-color: #EDF6F9;
+    /* background-color: #BCD8E4; */
+    color:  #006D77;
+    font-family: PT Sans;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+  display: flex;
+}
+
+header nav {
+    margin-left: 60px;
+    text-align: center;
+    display: inline-block;
+}
+
+header nav a {
+    display: inline-block;
+    margin: 20px;
+}
+header nav p {
+    display: inline-block;
+} 
+
+
+body header figure {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+
+/* header css ends */
+
+.banner {
+    background-color: #BCD8E4;
+}
+
+
+.jumbotron {
+    align-items: center;
+    text-align: center;
+    background-color: #BCD8E4;
+    /* background-color: #ffffff; */
+   
+    padding: 5rem;
+    padding-bottom: 2rem;
+  }
+  
+.jumbotron h1 {
+    font-family: 'Raleway', PT sans;
+    color: white;
+}
+
+.jumbotron h2, .banner h2 {
+    font-size: 20px;
+    color: #006D77;
+    font-family: 'Raleway', PT sans;
+}
+
+#leftcolumn {
+    align-items: center;
+    text-align: center;
+    background-color: #BCD8E4;
+    /* background-color: #ffffff; */
+   
+    padding: 20rem;
+    padding-bottom: 2rem;
+  }
+  
+#leftcolumn h1 {
+    font-family: 'Raleway', PT sans;
+    color: white;
+}
+
+
+
+.gallery {
+    display: flex;
+    align-items: center;
+   padding: 5rem;
+    background-color: #EDF6F9;
+}
+
+.item {
+margin: 2rem;
+    text-align: center;
+    display:inline-block;
+
+}
+
+.jumbotron .gallery img:hover {
+    border: 2px solid white;
+    opacity: 70%;
+}
+
+.item img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+/* footer begins */
+
+
+.container {
+    padding-top: 50px;
+  
+}
+
+
+footer {
+    font-size: 12px;
+    padding: 20px 0;
+  }
+  
+
+
+#toptop {
+    position: fixed;
+    background-color:#BCD8E4; 
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+
+
+@media all and (max-width: 770px),
+    screen and (max-device-width: 770px) {
+        header nav {
+        margin-left: 10px;
+        }
+
+        header nav a {
+        margin: 10px;
+        }
+
+
+        .jumbotron .gallery img {
+        width: 60%;
+        height: auto;
+        }
+
+
+        .item {
+            margin: 0px;
+        }
+
+
+
+        .jumbotron h2 {
+            font-size: 15px;
+        }
+
+        #leftcolumn {
+        padding: 5rem;
+        padding-bottom: 2rem;
+        }
+}
