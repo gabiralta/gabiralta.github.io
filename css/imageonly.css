@@ -41,6 +41,14 @@ header nav p, .secondnav nav p {
     display: inline-block;
 } 
 
+#email {
+    background-color: rgb(211, 136, 66);
+    padding: 8px 15px 8px 15px;
+    border-radius: 20px;
+    /* border: 1px solid #BCD8E4; */
+    color: #EDF6F9;
+}
+
 .secondnav {
     text-align: center;
 }
@@ -48,6 +56,8 @@ header nav p, .secondnav nav p {
 .secondnav a:hover {
     text-decoration: underline;
 }
+
+
 
 
 .jumbotron {

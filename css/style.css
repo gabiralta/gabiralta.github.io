@@ -76,6 +76,20 @@ header nav p, .secondnav nav p {
 }
 
 
+/* questions nav */
+.questions nav {
+    text-align: left;
+    width: 550px;
+    margin: auto;
+
+}
+
+
+.questions a{
+    text-decoration: underline;
+}
+
+
 .container {
     padding-top: 50px;
   
@@ -125,6 +139,18 @@ header nav p, .secondnav nav p {
 }
 
 
+#toptop {
+    position: fixed;
+    background-color:#BCD8E4; 
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 40px;
+  }
 
 
 footer {
