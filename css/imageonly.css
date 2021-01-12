@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
-    background-color: #EDF6F9;
+    background-color:white;
     /* background-color: #BCD8E4; */
     color:  #006D77;
     font-family: PT Sans;
@@ -65,7 +65,7 @@ header nav p, .secondnav nav p {
     text-align: center;
     background-color: #BCD8E4;
     /* background-color: #ffffff; */
-    color:white;
+    color:black;
     padding: 10rem;
   }
   

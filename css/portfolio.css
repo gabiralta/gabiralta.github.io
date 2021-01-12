@@ -2,8 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
-    background-color: #EDF6F9;
-    /* background-color: #BCD8E4; */
+    background-color: white;
     color:  #006D77;
     font-family: PT Sans;
     font-size: 17px;
@@ -48,45 +47,21 @@ body header figure {
 
 /* header css ends */
 
-.banner {
-    background-color: #BCD8E4;
-}
-
 
 .jumbotron {
     align-items: center;
     text-align: center;
-    background-color: #BCD8E4;
+   background-color: white;
+    /* background-color: #BCD8E4; */
     /* background-color: #ffffff; */
-   
-    padding: 5rem;
-    padding-bottom: 2rem;
+    color:black;
+    padding: 0rem;
   }
   
 .jumbotron h1 {
     font-family: 'Raleway', PT sans;
-    color: white;
-}
-
-.jumbotron h2, .banner h2 {
-    font-size: 20px;
-    color: #006D77;
-    font-family: 'Raleway', PT sans;
-}
-
-#leftcolumn {
-    align-items: center;
-    text-align: center;
-    background-color: #BCD8E4;
-    /* background-color: #ffffff; */
-   
-    padding: 20rem;
-    padding-bottom: 2rem;
-  }
-  
-#leftcolumn h1 {
-    font-family: 'Raleway', PT sans;
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 
 
@@ -94,18 +69,17 @@ body header figure {
 .gallery {
     display: flex;
     align-items: center;
-   padding: 5rem;
-    background-color: #EDF6F9;
+    width: 80%;
+    margin: auto;
 }
 
 .item {
 margin: 2rem;
-    text-align: center;
     display:inline-block;
 
 }
 
-.jumbotron .gallery img:hover {
+ .gallery img:hover {
     border: 2px solid white;
     opacity: 70%;
 }
@@ -134,7 +108,7 @@ footer {
   
 
 
-#toptop {
+/* #toptop {
     position: fixed;
     background-color:#BCD8E4; 
     width: 100px;
@@ -145,7 +119,7 @@ footer {
     border-radius: 50%;
     text-align: center;
     padding-top: 40px;
-  }
+  } */
 
 
 
