@@ -67,28 +67,26 @@ body header figure {
 
 
 .gallery {
-    display: flex;
-    align-items: center;
     width: 80%;
     margin: auto;
+
 }
 
-.item {
-margin: 2rem;
-    display:inline-block;
-
+.gallery img {
+    /* image scales with screen: */
+        max-width: 100%;
+        height: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
  .gallery img:hover {
-    border: 2px solid white;
-    opacity: 70%;
+    opacity: 60%;
+
 }
 
-.item img {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* image scales with screen: */
-    max-width: 100%;
-    height: auto;
+.gallery div
+{
+    padding-top: 25px;
 }
 
 

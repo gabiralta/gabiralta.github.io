@@ -62,11 +62,11 @@ header nav p, .secondnav nav p {
 .jumbotron {
     align-items: center;
     text-align: center;
-   background-color: white;
-    /* background-color: #BCD8E4; */
+
+    background-color: #BCD8E4;
     /* background-color: #ffffff; */
     color:black;
-    padding: 0rem;
+    padding: 2rem;
   }
   
 
