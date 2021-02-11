@@ -78,6 +78,24 @@ header nav p, .secondnav nav p {
 }
 
 
+/* breadcrumb */
+
+.breadcrumb {
+    padding-left: 2rem;
+  
+}
+.breadcrumb li {
+    display: inline-block;
+    color: #006D77;
+    font-size: 14px;
+   
+}
+
+.breadcrumb a {
+    text-decoration: underline;
+}
+
+
 /* page content starts here: */
 
 

@@ -3,17 +3,16 @@
 
 body {
     background-color: white;
-    /* background-color: #BCD8E4; */
-    color:  #006D77;
     font-family: PT Sans;
     font-size: 17px;
 }
 
-p a {
+.container a {
     text-decoration: underline;
+    color: inherit;
 }
 
-a {
+.secondnav a {
     color: inherit;
 }
 
@@ -43,7 +42,9 @@ header nav p, .secondnav nav p {
 
 .secondnav {
     text-align: center;
+    color: #006D77;
 }
+
 
 .secondnav a:hover {
     text-decoration: underline;
@@ -73,13 +74,28 @@ header nav p, .secondnav nav p {
 }
 
 
+/* breadcrumb */
+
+.breadcrumb {
+    padding-left: 2rem;
+  
+}
+.breadcrumb li {
+    display: inline-block;
+    color: #006D77;
+    font-size: 14px;
+   
+}
+
+.breadcrumb a {
+    text-decoration: underline;
+}
 
 /* questions nav */
 .questions nav {
     text-align: left;
     width: 450px;
     margin: auto;
-
 }
 
 
@@ -87,9 +103,14 @@ header nav p, .secondnav nav p {
     text-decoration: underline;
 }
 
+.container h2 {
+    color:  #006D77;
+}
+
 
 .container {
     padding-top: 50px;
+  color:   rgba(17, 8, 8, 0.747);
   
 }
 
