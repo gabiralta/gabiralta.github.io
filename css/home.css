@@ -8,12 +8,60 @@
     width: 100px;
     height: 100px;
     bottom: 0;
-    left: 0;
     right: 0;
     border-radius: 50%;
     text-align: center;
     padding-top: 40px;
   }
+
+  #greentriangle {
+    position: relative;
+    left: 20rem; 
+    bottom: 10rem;
+    z-index: -1;
+    opacity: 30%;
+
+  }
+
+
+  #yellowtriangle {
+    position: relative;
+    left: 20rem; 
+    bottom: 10rem;
+    z-index: -1;
+    opacity: 80%;
+
+  }
+
+  
+
+  #bluetriangle {
+    position: relative;
+    left: 200px; 
+    bottom: 100px;
+    z-index: -1;
+    opacity: 80%;
+
+  }
+
+
+
+  #orangetriangle {
+        position: relative;
+        left: 35rem; 
+        bottom: 25rem;
+        z-index: -1;
+        opacity: 30%;
+  }
+
+  #yellowtriangle2 {
+    position: relative;
+    left: 10rem; 
+    bottom: 25rem;
+    z-index: -1;
+
+  }
+
 
 
 body {
@@ -34,6 +82,7 @@ a {
 
 header {
   display: flex;
+
 }
 
 body header figure {
@@ -42,7 +91,7 @@ body header figure {
 }
 
 header nav {
-    text-align: center;
+    /* text-align: right; */
     display: inline-block;
     margin-left: 60px;
 }
@@ -59,7 +108,7 @@ header nav p, .portfolionav nav p {
 
 
 #email {
-    background-color: rgb(211, 136, 66);
+    background-color:#E17B4F;
     padding: 8px 15px 8px 15px;
     border-radius: 20px;
     /* border: 1px solid #BCD8E4; */
@@ -70,13 +119,15 @@ header nav p, .portfolionav nav p {
 .jumbotron {
     align-items: center;
     text-align: center;
-
     background-color: #BCD8E4;
     color:black;
     padding: 2rem;
   }
-  
 
+
+#j1 {
+      padding: 0;
+  }
 
 /* questions nav */
 .questions nav {
@@ -222,9 +273,7 @@ header nav p, .portfolionav nav p {
 .contact {
     padding-top: 5px;
 }
-.contact .container figure{
-    padding-top: 30px;
-}
+
 
 
 footer {
