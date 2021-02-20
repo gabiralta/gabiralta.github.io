@@ -1,6 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
+#toptop {
+    position: fixed;
+    background-color:#BCD8E4; 
+    width: 50px;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    }
+
 body {
     background-color: white;
     font-family: PT Sans;
@@ -25,18 +38,18 @@ body header figure {
     margin-left: 30px;
 }
 
-header nav {
+/* header nav {
     text-align: center;
     display: inline-block;
     margin-left: 60px;
-}
+} */
 
-header nav a, .secondnav nav a {
+ .secondnav nav a {
     display: inline-block;
     margin: 20px;
     text-decoration: none;
 }
-header nav p, .secondnav nav p {
+ .secondnav nav p {
     display: inline-block;
 } 
 
@@ -49,6 +62,61 @@ header nav p, .secondnav nav p {
 .secondnav a:hover {
     text-decoration: underline;
 }
+
+
+/* header begins */
+  /* Style The Dropdown Menu Button */
+  .dropbtn {
+    background-color: transparent;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: absolute;
+    right: 0;
+    /* display: inline-block; */
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right:0;
+    text-align: center;
+    background-color: whitesmoke;
+    /* border: #E17B4F 1px solid; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #E17B4F; color: white;}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .show   {
+      display:block;
+  }
+
+/* header ends */
+
+
+
+
 
 #email {
     background-color: rgb(211, 136, 66);
@@ -158,18 +226,7 @@ header nav p, .secondnav nav p {
 }
 
 
-#toptop {
-    position: fixed;
-    background-color:#BCD8E4; 
-    width: 100px;
-    height: 100px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 50%;
-    text-align: center;
-    padding-top: 40px;
-  }
+
 
 
 footer {
