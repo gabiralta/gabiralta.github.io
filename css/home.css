@@ -5,15 +5,16 @@
 #toptop {
     position: fixed;
     background-color:#BCD8E4; 
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     bottom: 0;
     right: 0;
     border-radius: 50%;
     text-align: center;
-    padding-top: 40px;
-  }
-
+    padding-top: 15px;
+    font-size: 13px;
+    }
+/* 
   #greentriangle {
     position: relative;
     left: 20rem; 
@@ -60,7 +61,7 @@
     bottom: 25rem;
     z-index: -1;
 
-  }
+  } */
 
 
 
@@ -318,6 +319,10 @@ header nav p, .portfolionav nav p {
 }
 /* portfolio links ends */
 
+.twocolumns .container {
+    padding-top: 10px;
+  
+}
 
 
 /* contact section */
@@ -350,13 +355,13 @@ footer {
 
   @media all and (max-width: 770px),
      screen and (max-device-width: 770px) {
-         header nav {
+         /* header nav {
             margin-left: 10px;
          }
 
          header nav a {
             margin: 10px;
-        }
+        } */
 
          .row article {
             padding-left: 2rem;
@@ -364,7 +369,7 @@ footer {
 
         .container {
             padding-top: 0px;
-            padding-bottom: 60px;
+            padding-bottom: 5px;
 
         }
         .container figure img {
@@ -405,16 +410,57 @@ footer {
             text-align: left;
         } 
         
+        .jumbotron {
+            background-color: #BCD8E4;
+          }
 
+          .portfolionav {
+              background-color: #BCD8E4;
+          }
 /* portfolio section begins */
 
-        .portfolio-section .gallery img {
-            width: 60%;
-            height: auto;
-        }
-    
+.gallery {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.gallery img {
+    margin-left: 10rem;
+}
+
+
+.portfolionav nav {
+    text-align: left;
+}
+
+.portfolionav nav p {
+    font-size: 13px;
+}
+
+#line1 {
+    /* top | right | bottom | left */
+    margin: 0 0 0 0;
+  }
+  /* portfolio links ends */
+  
+  .portfolionav a:hover {
+    text-decoration: underline;
+    font-size: 15px;
+    color:  rgb(211, 136, 66);
+}
+  
+  
+  /* contact section */
+  .contact {
+      padding-top: 3px;
+  }
+  
+
         .portfolio-section h2 {
-                font-size: 15px;
+            font-size: 15px;
         }
        
+      
+
     }
