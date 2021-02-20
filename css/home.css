@@ -90,8 +90,8 @@ body header figure {
     margin-left: 30px;
 }
 
+/* 
 header nav {
-    /* text-align: right; */
     display: inline-block;
     margin-left: 60px;
 }
@@ -103,7 +103,57 @@ header nav a {
 }
 header nav p, .portfolionav nav p {
     display: inline-block;
-} 
+}  */
+
+
+
+  /* Style The Dropdown Menu Button */
+  .dropbtn {
+    background-color: transparent;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: absolute;
+    right: 0;
+    /* display: inline-block; */
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right:0;
+    text-align: center;
+    background-color: whitesmoke;
+    /* border: #E17B4F 1px solid; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #E17B4F; color: white;}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .show   {
+      display:block;
+  }
+
 
 
 
@@ -214,7 +264,7 @@ header nav p, .portfolionav nav p {
 .gallery {
     width: 80%;
     margin: auto;
-
+    background-color: #BCD8E4;
 }
 
 .gallery img {
@@ -244,6 +294,7 @@ header nav p, .portfolionav nav p {
 
 .portfolionav nav p {
     font-size: 15px;
+    display: inline-block;
 }
 
 .portfolionav nav a {
