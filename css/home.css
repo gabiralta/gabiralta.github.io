@@ -79,20 +79,6 @@ body header figure {
     margin: 0%;
 }
 
-/* 
-header nav {
-    display: inline-block;
-    margin-left: 60px;
-}
-
-header nav a {
-    display: inline-block;
-    margin: 20px;
-    text-decoration: none;
-}
-header nav p, .portfolionav nav p {
-    display: inline-block;
-}  */
 
 
 
@@ -159,10 +145,17 @@ header nav p, .portfolionav nav p {
     align-items: center;
     text-align: center;
     background-color: #BCD8E4;
-    color:black;
     padding: 2rem;
   }
 
+  .jumbotron img {
+    box-shadow:none;
+        
+    /* image scales with screen: */
+    max-width: 100%;
+    height: auto;
+
+  }
 
 /* questions nav */
 .questions nav {
