@@ -187,24 +187,29 @@ body header figure {
     height: auto;
 }
 
+.twocolumns .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 #tx-l article {
-    padding-right: 30px;
+    padding-right: 20px;
     text-align: right;
     /* border: black 1px solid; */
 }
 
 #tx-l article p {
-    width: 80%;
+    width: 70%;
     float: right;
 }
 
 #tx-l figure {
-    padding-left: 30px;
+    padding-left: 20px;
     text-align: left;
 }
 
 #tx-r article {
-    padding-left: 30px;
+    padding-left: 20px;
     text-align: left;
 }
 
@@ -214,9 +219,12 @@ body header figure {
 }
 
 #tx-r figure {
-    padding-right: 30px;
+    padding-right: 20px;
     text-align: right;
 }
+
+
+
 
 /* portfolio css begins */
 
