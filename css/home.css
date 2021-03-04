@@ -53,11 +53,10 @@
 
 
 body {
-    background-color: white;
-  
-    color: rgba(17, 8, 8, 0.747);
+    background-color: rgb(240,244,246);
+    color: rgb(81,94,101);
     font-family: PT Sans;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 p a {
@@ -134,8 +133,8 @@ body header figure {
 
 #email {
     background-color:#E17B4F;
-    padding: 8px 15px 8px 15px;
-    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 0px;
     /* border: 1px solid #BCD8E4; */
     color: #EDF6F9;
 }
@@ -170,10 +169,6 @@ body header figure {
 }
 
 
-.container {
-    padding-top: 50px;
-  
-}
 
 .container li {
     list-style-type: none;
@@ -187,8 +182,12 @@ body header figure {
     height: auto;
 }
 
+.twocolumns .container h2 {
+    font-size: 35px;
+    color: black;
+}
+
 .twocolumns .container {
-    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -199,13 +198,14 @@ body header figure {
 }
 
 #tx-l article p {
-    width: 70%;
+    width: 90%;
     float: right;
 }
 
 #tx-l figure {
     padding-left: 20px;
     text-align: left;
+    padding-top:20px;
 }
 
 #tx-r article {
@@ -214,13 +214,14 @@ body header figure {
 }
 
 #tx-r article p {
-    width: 70%;
+    width: 90%;
     float: left;
 }
 
 #tx-r figure {
     padding-right: 20px;
     text-align: right;
+    padding-top:20px;
 }
 
 
@@ -241,9 +242,9 @@ body header figure {
   }
   
 .portfolio-section h1 {
-    font-family: 'Raleway', PT sans;
+    font-family: PT sans;
     color: black;
-    font-weight: bold;
+    font-size: 40px;
 }
 
 
@@ -279,7 +280,7 @@ body header figure {
 }
 
 .portfolionav nav p {
-    font-size: 15px;
+    font-size: 20px;
     display: inline-block;
 }
 
@@ -294,7 +295,7 @@ body header figure {
 
 .portfolionav a:hover {
     text-decoration: underline;
-    font-size: 18px;
+    font-size: 22px;
     color:  rgb(211, 136, 66);
 }
 
@@ -304,10 +305,6 @@ body header figure {
 }
 /* portfolio links ends */
 
-.twocolumns .container {
-    padding-top: 10px;
-  
-}
 
 
 /* contact section */
@@ -423,9 +420,9 @@ footer {
 }
 
 
-.portfolionav nav p {
+/* .portfolionav nav p {
     font-size: 13px;
-}
+} */
 
 #line1 {
     /* top | right | bottom | left */
@@ -435,7 +432,6 @@ footer {
   
   .portfolionav a:hover {
     text-decoration: underline;
-    font-size: 15px;
     color:  rgb(211, 136, 66);
 }
   
