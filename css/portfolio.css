@@ -3,62 +3,85 @@
 
 
 
-header {
-  display: flex;
+
+
+h1 {
+        font-family: "Raleway", PT Sans;
+    }
+
+
+body {
+    background-color: rgb(240,244,246);
+    color: rgb(81,94,101);
+    font-family: PT Sans;
+    font-size: 20px;
 }
 
-header nav {
-    margin-left: 60px;
+p a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+
+header nav ul {
+     list-style-type: none;
     text-align: center;
+}
+
+header nav li {
     display: inline-block;
+
 }
 
-header nav a {
-    display: inline-block;
-    margin: 20px;
-}
-header nav p {
-    display: inline-block;
-} 
-
-
-body header figure {
-    margin-top: 5px;
-    margin-left: 30px;
-}
-
-#email {
-    background-color: rgb(211, 136, 66);
-    padding: 8px 15px 8px 15px;
-    border-radius: 20px;
-    /* border: 1px solid #BCD8E4; */
-    color: #EDF6F9;
-}
-
-/* header css ends */
-
-
-.portfolio-section {
-    align-items: center;
+header nav li a {
+    display: block;
     text-align: center;
-   background-color: white;
-    /* background-color: #BCD8E4; */
-    /* background-color: #ffffff; */
-    color:black;
-    padding: 0rem;
-  }
-  
-.portfolio-section h1 {
-    font-family: 'Raleway', PT sans;
-    color: black;
-    font-weight: bold;
+    padding: 0rem 3rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+header nav li a:hover {
+    color: #E17B4F;
 }
 
 
+
+.jumbotron {
+    background-color: #BCD8E4;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    margin-bottom: 25px;
+    text-align: center;
+ 
+}
+
+.jumbotron h1 {
+    font-size: 70px;
+
+}
+ 
+
+.jumbotron img {
+    box-shadow:none;
+
+    /* image scales with screen: */
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.jumbotron h2 {
+    font-family: "Raleway", PT Sans;
+    font-size: 18px;
+    font-style: italic;
+}
 
 .gallery {
     width: 80%;
     margin: auto;
+
 
 }
 
@@ -71,66 +94,53 @@ body header figure {
 
  .gallery img:hover {
     opacity: 60%;
-
 }
 
-.gallery div
-{
+.gallery div{
     padding-top: 25px;
 }
 
 
-/* footer begins */
 
-
-.container {
-    padding-top: 50px;
-  
-}
 
 
 footer {
-    font-size: 12px;
-    padding: 20px 0;
-  }
-  
-
-
-/* #toptop {
-    position: fixed;
-    background-color:#BCD8E4; 
-    width: 100px;
-    height: 100px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 50%;
-    text-align: center;
-    padding-top: 40px;
-  } */
-
-
-
-@media all and (max-width: 770px),
-    screen and (max-device-width: 770px) {
-        header nav {
-        margin-left: 10px;
-        }
-
-        header nav a {
-        margin: 10px;
-        }
-
-
-        .portfolio-section .gallery img {
-        width: 60%;
-        height: auto;
-        }
-
-
-        .portfolio-section h2 {
-            font-size: 15px;
-        }
-
-    
+    font-size: 15px;
+    padding: 20px;
+    margin-top: 4rem;
+    background-color: #BCD8E4;
 }
+  
+ 
+footer ul {
+    list-style: none;
+}
+  
+  
+  
+  /* media queries be */
+
+  @media all and (max-width: 770px),
+     screen and (max-device-width: 770px) {
+   
+    
+        header nav li a {
+            padding: 0rem 1rem;
+             font-size: smaller;
+        }
+
+        .jumbotron  h1 {
+            font-size: 50px;
+        }
+
+     
+        /* portfolio section begins */
+
+        .gallery {
+            width: 100%;
+            margin: auto;
+            padding-bottom: 5rem;
+        }
+
+
+    }
