@@ -282,16 +282,16 @@ footer {
    
     
         header nav li a {
-            padding: 0rem 1rem;
+           padding: 0rem:
              font-size: smaller;
         }
 
         .jumbotron  h1 {
-            font-size: 50px;
+            font-size: 40px;
         }
 
          .row article {
-            padding-left: 2rem;
+            padding-left: 1rem;
         }
 
 
@@ -305,13 +305,13 @@ footer {
 
 
         #bw .col-sm-12 {
-            margin: 3rem;
+            margin: 1rem;
         }
 
 
         .container {
             padding-top: 0px;
-            padding-bottom: 3px;
+            padding-bottom: 2px;
 
         }
 
@@ -328,18 +328,18 @@ footer {
         }
         
         #tx-l article {
-            padding-right: 10px;
+            padding-right: 5px;
             text-align: left;
         }
         
      
         #tx-l figure {
-            padding-left: 10px;
+            padding-left: 5px;
             text-align: left;
         }
         
         #tx-r article {
-            padding-left: 10px;
+            padding-left: 5px;
             text-align: left;
         }
         
@@ -349,13 +349,11 @@ footer {
         }
         
         #tx-r figure {
-            padding-right: 10px;
+            padding-right: 5px;
             text-align: left;
         } 
         
-        .jumbotron {
-            background-color: #BCD8E4;
-          }
+       
 
          
 /* portfolio section begins */
@@ -368,32 +366,6 @@ footer {
 
 
 
-.portfolionav nav {
-    text-align: left;
-}
-
-.portfolionav nav a {
-    /* top | right | bottom | left */
-    margin: 1rem 2rem 0 2rem;
-
-}
-
-
-/* .portfolionav nav p {
-    font-size: 13px;
-} */
-
-#line1 {
-    /* top | right | bottom | left */
-    margin: 0 0 0 0;
-  }
-  /* portfolio links ends */
-  
-  .portfolionav a:hover {
-    text-decoration: underline;
-    color:  rgb(211, 136, 66);
-}
-  
   
 
 
