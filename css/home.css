@@ -113,6 +113,9 @@ header nav li a {
     opacity: 80%;
     z-index: -1;
     position: absolute;
+    left: 2;
+    top:5;
+
 }
 
 #bw .col-sm-12 {
