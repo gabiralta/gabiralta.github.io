@@ -8,11 +8,13 @@ h1 {
 
 
 body {
-background-color: rgb(240,244,246);
+background-color: white;
 color: rgb(81,94,101);
 font-family: PT Sans;
 font-size: 20px;
 }
+
+
 
 p a {
 text-decoration: underline;
@@ -20,28 +22,32 @@ color: inherit;
 }
 
 
-header nav ul {
-list-style-type: none;
-text-align: center;
-}
-
-header nav li {
-display: inline-block;
-
-}
-
-header nav li a {
-display: block;
-text-align: center;
-padding: 0rem 3rem;
-text-decoration: none;
-color: inherit;
-}
-
-header nav li a:hover {
-color: #E17B4F;
-}
-
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  }
+  
+   nav ul li {
+  display: inline-block;
+  
+  }
+  
+   nav ul li a {
+  display: block;
+  text-align: center;
+  padding: 0rem 3rem;
+  text-decoration: none;
+  color: inherit;
+  }
+  
+   nav li a:hover {
+  color: #E17B4F;
+  }
+  
+  .secondnav nav {
+      margin-top: 5rem;
+  }
+  
 
 
 .jumbotron {
@@ -79,8 +85,9 @@ font-style: italic;
 footer {
   font-size: 15px;
   padding: 20px;
-  margin-top: 4rem;
+
   background-color: #BCD8E4;
+  margin-top: 5rem;
 }
 
 
@@ -90,23 +97,6 @@ footer ul {
 
 
 
-
- .secondnav nav a {
-    display: inline-block;
-    margin: 20px;
-    text-decoration: none;
-}
- .secondnav nav p {
-    display: inline-block;
-} 
-
-.secondnav {
-    text-align: center;
-}
-
-.secondnav a:hover {
-    text-decoration: underline;
-}
 
 
 
@@ -135,6 +125,7 @@ footer ul {
 
 .gallery {
     padding-top: 10px;
+    text-align: center;
 }
 
 .gallery img {
@@ -144,40 +135,21 @@ footer ul {
         padding: 10px;
 }
 
-/* footer begins */
-
-
-footer {
-    padding-top: 50px; 
-}
-/* 
-footer {
-    font-size: 12px;
-    padding: 20px 0;
-  } */
-/*   
-  footer .col-sm-4 {
-    display: flex;
-    justify-content: flex-end;
-  }
-   */
-  footer ul {
-    list-style: none;
-  }
-  
- 
   
   /* media queries be */
 
   @media all and (max-width: 770px),
      screen and (max-device-width: 770px) {
-         header nav {
-            margin-left: 10px;
-         }
+    
+      header nav li a, nav li a {
+        padding: 0rem 1rem;
+        font-size: smaller;
+    }
 
-         header nav a {
-            margin: 10px;
-        }
+
+    .jumbotron  h1 {
+        font-size: 40px;
+    }
 
        
     }

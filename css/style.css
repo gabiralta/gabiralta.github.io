@@ -18,20 +18,22 @@ font-size: 20px;
 p a {
 text-decoration: underline;
 color: inherit;
+
 }
 
 
-header nav ul {
- list-style-type: none;
+
+ nav ul {
+list-style-type: none;
 text-align: center;
 }
 
-header nav li {
+ nav ul li {
 display: inline-block;
 
 }
 
-header nav li a {
+ nav ul li a {
 display: block;
 text-align: center;
 padding: 0rem 3rem;
@@ -39,9 +41,22 @@ text-decoration: none;
 color: inherit;
 }
 
-header nav li a:hover {
+ nav li a:hover {
 color: #E17B4F;
 }
+
+.secondnav nav {
+    margin-top: 5rem;
+}
+
+
+/* questions nav */
+.questions nav {
+    text-align: left;
+    width: 500px;
+    margin: auto;
+}
+
 
 
 
@@ -89,53 +104,10 @@ font-style: italic;
     }
 
 
-.container a {
-    text-decoration: underline;
-    color: inherit;
-}
-
-.secondnav a {
-    color: inherit;
-}
 
 
-
-
- .secondnav nav a {
-    display: inline-block;
-    margin: 20px;
-    text-decoration: none;
-}
- .secondnav nav p {
-    display: inline-block;
-} 
-
-.secondnav {
-    text-align: center;
-    color: #006D77;
-}
-
-
-.secondnav a:hover {
-    text-decoration: underline;
-    color: #E17B4F;
-}
-
-
-/* questions nav */
-.questions nav {
-    text-align: left;
-    width: 450px;
-    margin: auto;
-}
-
-.questions li a{
-    color: rgb(81,94,101);
-}
-
-.questions a:hover {
-    text-decoration: underline;
-    color: #E17B4F;
+.twocolumns .container {
+    margin-top: 4rem;
 }
 
 
@@ -148,30 +120,25 @@ font-style: italic;
     height: auto;
 }
 
-.twocolumns .container h2 {
-    font-size: 35px;
-    color: black;
-}
+
 
 .twocolumns .container {
     padding-bottom: 30px;
+   
 }
 
-
-.container h2 {
-    color:  #006D77;
-}
-
-
-.container {
-    padding-top: 50px;
-  color:   rgba(17, 8, 8, 0.747);
-  
-}
 
 .container li {
     list-style-type: none;
+
 }
+
+.container ul {
+    padding-left: 0;
+}
+
+
+
 
 .container figure img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -219,28 +186,32 @@ font-style: italic;
 footer {
     font-size: 15px;
     padding: 20px;
-  
     background-color: #BCD8E4;
   }
   
  
   footer ul {
     list-style: none;
+    
   }
   
+  footer a {
+      text-decoration: none;
+  }
   
   /* media queries be */
 
   @media all and (max-width: 770px),
      screen and (max-device-width: 770px) {
-         header nav {
-            margin-left: 10px;
-         }
-
-         header nav a {
-            margin: 10px;
+        
+        
+        header nav li a, nav li a {
+            padding: 0rem 1rem;
+            font-size: smaller;
         }
 
+    
+     
          .row article {
             padding-left: 2rem;
         }
@@ -256,6 +227,20 @@ footer {
             margin-right: auto; 
         }
 
+        #tx-l article {
+            margin-bottom: 5rem;
+        }
+
+       #tx-r h1 {
+           margin-top: 5rem;
+       }
+
+       #tx-l {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        }
+
+
 
         #tx-l article p {
             width: 100%;
@@ -263,18 +248,18 @@ footer {
         }
         
         #tx-l article {
-            padding-right: 10px;
+            padding-right: 5px;
             text-align: left;
         }
         
      
         #tx-l figure {
-            padding-left: 10px;
+            padding-left: 5px;
             text-align: left;
         }
         
         #tx-r article {
-            padding-left: 10px;
+            padding-left: 5px;
             text-align: left;
         }
         
@@ -284,8 +269,9 @@ footer {
         }
         
         #tx-r figure {
-            padding-right: 10px;
+            padding-right: 5px;
             text-align: left;
+            margin-bottom: 5rem;
         } 
         
         
