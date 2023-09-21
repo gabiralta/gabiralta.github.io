@@ -1,298 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9J2BFGTMGG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+layout: default
+title: Home
+---
 
-  gtag('config', 'G-9J2BFGTMGG');
-</script> 
+<div class="home">
 
-  <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-      <meta name="description" content="Welcome to Gabriela Peralta's graphic and website design website! Learn how to get graphic and website design work for your business or project!">
-      <meta name="keywords" content="business owners, website design, graphic design">
-      <meta name="author" content="Gabriela Peralta">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-   
-    <title>Website & Graphic Design | Gabriela Peralta | United States</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    
-
-    <link rel="stylesheet" type="text/css" href="css/home.css">
-
-<!-- load 2 stylesheets
-    <link rel="stylesheet" type="text/css" href="css/style.css"
-        media="screen and (min-width: 701px)">
-
-    <link rel="stylesheet" type="text/css" href="css/narrow.css"
-        media="screen and (max-width: 700px), 
-                screen and (max-device-width: 700px)"> -->
-
-<!-- from linkedin: -->
-  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
-
-</head>
-
-<body>
-     
-    <header>
-      <nav>
-        <ul>
-         
-          <li><a href="portfolio.html">PORTFOLIO</a></li>
-          <li><a href="UX.html">UX</a></li>
-          <li><figure><a href="index.html"><img src="pics/blackGPlogo250px.png" alt="logo" width="50px" margin="auto"></a></figure></li> 
-          <li> <a href="FAQ.html"> FAQ</a></li>
-          <li><a href="#contact"> CONTACT</a></li>
-       </ul>
-      </nav>  
-
-        <!-- </nav>  -->
-        </header>
-  
-        <section class="jumbotron">
-          <figure><img src="pics/blackGPlogo250px.png" alt="whale logo"></figure> 
-          <h1>Gabriela Peralta</h1>
-          <h2>Graphic Design, Web Design, Content</h2>
-             
-        </section>
-            
-
-        <section class="mini-portfolio"><!-- mini portfolio -->
-          <div class="row">
-          
-              <div class="col-sm-4">
-                <figure> <a href="print.html"> <img src="portfolio/speak up bz.jpg" alt="business card design"></a></figure>
-            </div>
-      
-        
-            <div class="col-sm-4">
-              <figure> <a href="janisrunyan.html"> <img src="portfolio/JR web.jpg" alt="desktop website example"></a></figure>
-            </div>
-        
-            <div class="col-sm-4">
-              <figure> <a href="socialmedia.html"> <img src="portfolio/socialmediascreens.jpg" alt="social media examples"></a>
-              </figure>
-            </div>
-        </div>   
-
-        <div class="row">
-          <p class="col-sm-12"> <h1><a class="btn btn-secondary"
-            href="#" role="button">See Entire Portfolio
-         </a></h1> </p>
-        </div>
-
-        </section>
-
-
-
-<section class="twocolumns">
-    <div class="container" id="tx-l"> 
-      <article class="col-sm-6">
-          <h1>My Story</h1>
-          <p> Gabriela fell in love with <strong>design</strong> sailing the ocean blue for four years while traveling and working with locals in Africa, the Caribbean, and the Americas. With a background in <strong>business</strong>, her recent work in various <strong>marketing campaigns</strong> has brought her passion to life: to understand and capture the heart of your <strong>business</strong> into a simple, yet powerful <strong>design</strong>. </p>
-      </article>
-      <figure class="col-sm-6"><img src="pics/dolphins400px.jpeg" alt="dolphins jumping out of the water in the open sea"></figure>
-  </div> 
-</section>
-
-<section class="row" id="bw">
-     <div class="col-sm-12">
-       <figure>
-        <img src="pics/bw-gabi400px.jpeg" alt="image of Gabriela">
-       </figure>
-    </div>
-
-        <div class="col-sm-12">
-            <p>I'm a</p>
-            <p><h1>Graphic + Website Designer. </h1></p>
-            <p> Yes, I've coded this website as well! </p>
-    
-              <h1><a class="btn btn-secondary"
-                href="janisrunyan.html" role="button">See Web Design
-                </a></h1>
-          
+  <ul class="posts">
+    {% for post in paginator.posts %}
+    <li>
+      <h1 >{{ post.title }}</h1>
+      <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+      {{ post.excerpt }}
+      <div class="continue">
+        <a href="{{ post.url | prepend: site.baseurl }}">&bull;&bull;&bull;</a>
       </div>
-  </section>
-      
+    </li>
+    {% endfor %}
+  </ul>
 
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      {% if page == 2 %}
+        <a class="page-link" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">prv</a>
+      {% else %}
+        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">prv</a>
+      {% endif %}
+    {% else %}
+      <span class="page-link">prv</span>
+    {% endif %}
 
-<section class="twocolumns">
-    <div class="container" id="tx-r">
-
-        <figure class="col-sm-6"><img src="pics/armonia.jpg" alt="logo designed by Gabriela for company called armonia."></figure>
-        <article class="col-sm-6">
-            <h1>Business Logos</h1>
-            <p> Gabriela has created 4 company logos for <strong>businesses</strong> around the world. Logos show professionalism and the flavor of the company to connect with customers. Gabriela uses her <strong>business</strong> degree background to do market analysis, to design for <strong>businesses</strong> owners the perfect logo <strong>design</strong> and help their brand succeed. </p>
-      
-          <p> <h1><a class="btn btn-secondary"
-          href="logos.html" role="button">See Logos
-          </a></h1></p>
-        </article>
-    </div>
-</section>
-
- <section class="twocolumns" id="webdesign">
-      <div class="container" id="tx-l">
-          <article class="col-sm-6">
-              <h1>Website Design</h1>
-              <p> Gabriela has designed her own <strong>website</strong>. She works in <strong>detail</strong> with color theory, alignment, and type to create the ideal design. To develop the website, Gabriela performs in website builders or her own code. In addition, she uses google analytics and her marketing skills to enhace SEO and rank higher in google search. She has developed a beautiful online store for client Janis Runyan. 
-                <p> <h1><a class="btn btn-secondary"
-                  href="http://www.janisrunyan.com" target="_blank" role="button">Visit JanisRunyan.com
-                  </a></h1></p>
-                
-            
-          </article>
-          <figure class="col-sm-6"><img src="pics/Janis400px.jpeg" alt="Website instagram picture for new website for client Janis Runyan" ></figure>
-
-      </div>
- </section>
-
-  <section class="twocolumns" >
-    <div class="container" id="tx-r" >
-        <figure class="col-sm-6"><img src="pics/business400px.jpeg" alt="Gabriela standing by her team in Punta Arenas, Chile"></figure>
-        <article class="col-sm-6">
-            <h2>Business & Marketing</h2>
-            <p> Gabriela graduated from the McCombs School of Business at the University of Texas at Austin with a degree in <strong>Management Information Systems</strong>. She worked analyzing data and <strong>designing</strong> data reports automation in <strong>Tableau</strong>  for CIO review at General Motors. Later she volunteered at the MV Logos Hope, with whom she lived in 4 countries doing <strong>advertising, marketing, project coordination, and sponsor presentations</strong>. </p>
-              
-            <p> <h1><a class="btn btn-secondary"
-                href="socialmedia.html" role="button">See Social Media
-                </a></h1></p>
-         </article>
-     </div>
-  </section>
-
-
-  <section class="col-sm-12" id="contact">
-      <article class>
-          <h1>Let's work together</h1>
-          <p> See if you have any of the same <a href="FAQ.html"> FAQ’s</a> and let's chat.</p> 
-          <p>Looking forward to working together!  </p>
-          <p><h1><a class="btn-primary"
-              href="mailto:gabriela.peralta@utexas.edu" role="button">Email
-              </a></h1>
-          </p>
-     
-          <figure>
-          <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="gabrielaperalta"><a class="LI-simple-link" href='https://www.linkedin.com/in/gabrielaperalta?trk=profile-badge'>Gabriela Peralta's LinkedIn</a></div>
-          <!-- <img src="pics/contact400px.jpeg" alt="Gabriela sitting in front of the sea in Rio, Brasil"> -->
-          </figure>
-       </article>
-   </section>
-
-<div id="toptop"><a href="#top"> Top</a>
-</div> 
-
-
-    
-  
-
-<footer class="col-sm-12">
-  <div class ="col-sm-2">
-    <ul>
-      <li>GABRIELA PERALTA</li>
-      <li>gabriela.peralta@utexas.edu</li>
-      <li><a href="www.linkedin.com/in/gabrielaperalta" target="blank">LinkedIn</a></li>
-      <li><a href="https://www.facebook.com/gabiralta" target="blank">Facebook</a></li>
-    </ul>
+    {% if paginator.next_page %}
+      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">nxt</a>
+    {% else %}
+      <span class="page-link">nxt</span>
+    {% endif %}
   </div>
 
-
-  <div class ="col-sm-2">
-    <ul>
-      <li><figure><img src="pics/logo60px.png"></figure></li>
-  
-
-  </div>
-
-
-<div class ="col-sm-2">
-  <ul>
-    <li><a href="portfolio.html">PORTFOLIO</a></li>
-    <li><a href="#">UX</a></li>
-    <li><a href="FAQ.html">FAQ</a></li>
-    <li><a href="#contact">CONTACT</a></li>
-  </ul>
 </div>
-
-<div class ="col-sm-2">
-  <ul>
-    <li>WEB DESIGN</li>
-    <li><a href="janisrunyan.html">JanisRunyan.com</a></li>
-    <li><a href="mywebsite.html">Hello Gabriela</a></li>
-    <li> <a href="CappuccinoDIY.html">App Design</a></li>
-  </ul>
-</div>
-
-
-<div class ="col-sm-2">
-  <ul>
-    <li>MARKETING</li>
-    <li><a href="logos.html"> Logos</a></li>
-    <li> <a href="branding.html"> Branding </a> </li>
-    <li><a href="socialmedia.html"> Social Media </a>  </li>
-  </ul>
-</div>
-
-
-<div class ="col-sm-2">
-  <ul>
-    <li>PRINT</li>
-    <li><a href="print.html"> Business Cards </a></li>
-    <li> <a href="print.html"> Thank You Cards</a> </li>
-  </ul>
-</div>
-
-
-    <div class="row">
-      <p class="col-sm-12" style="text-align: center;">&copy; 2021 Gabriela Peralta</p>
-    </div>
-</footer>
-
-</body>
-</html>
-
-
-
-          <!-- <div class="dropdown">
-            <button class="dropbtn" onclick="myFunction ()">
-              <img src="pics/menu-icon.png" onclick="myFunction() ">
-            </button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="index.html#portfoliogallery">Portfolio</a>
-              <a href="FAQ.html">FAQ</a>
-              <a href="index.html#contact">Contact</a>
-            </div>
-          </div> -->
-
-
-
-
-<!-- <section class="jumbotron" id="j2">
-  <h1>Praise for JanisRunyan.com </h1>
- 
-    <blockquote class="col-sm-4">
-      <p>"Beautiful, classy and inviting website.</p>
-      <p> Easy to navigate!" </p>
-      <cite> - Bonnie P.</cite>
-    </blockquote>
-
-    <blockquote class="col-sm-4">
-      <p>"Great job, the website is really nice </p>
-      <p>and your watercolors are lovely" </p>
-      <cite>- Jill G.</cite>
-    </blockquote>
-
-   <blockquote class="col-sm-4">
-     <p> "Love your artwork Janis and the website! </p> 
-     <p>Absolutely breathtakingly beautiful!" </p>
-     <cite> - Diana R.</cite>
-  </blockquote>
-
-</section> -->
